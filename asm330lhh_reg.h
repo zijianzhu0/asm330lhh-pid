@@ -1492,6 +1492,8 @@ int32_t asm330lhh_den_mark_axis_y_get(const stmdev_ctx_t *ctx, uint8_t *val);
 int32_t asm330lhh_den_mark_axis_z_set(const stmdev_ctx_t *ctx, uint8_t val);
 int32_t asm330lhh_den_mark_axis_z_get(const stmdev_ctx_t *ctx, uint8_t *val);
 
+int32_t asm330lhh_get_ts_res(const stmdev_ctx_t *ctx, float *ts_res);
+
 /**
   *@}
   *
